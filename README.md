@@ -20,7 +20,8 @@ This is a robot project in our class CS4540.
 
 #### Stop automatic upgrades
 We don't want automatic upgrades to run without warning, so we will disable this in this step.
-Run the command 'sudo dpkg-reconfigure -plow unattended-upgrades' in your terminal. 
+
+Run the command `sudo dpkg-reconfigure -plow unattended-upgrades` in your terminal. 
 
 #### Set-up Wifi
 Just use the Mate desktop Network Manager for this
