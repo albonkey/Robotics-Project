@@ -18,12 +18,27 @@ This is a robot project in our class CS4540.
 1. Start the Rasberry Pi
 2. Go through the system configuration and setup
 
+#### Setting up swapfile (For Rasberry Pi 3)
+The Pi-3 only has 1Gb of memory, starting a web browser uses more memory than that. The swap file is needed to run heavy memory usage programs.
+
+In the terminal: 
+1. `sudo fallocate -l 2G /swapfile`
+2. `sudo chmod 600 /swapfile`
+3. `sudo swapon /swapfile`
+4. `sudo swapon /swapfile`
+5. `sudo nano /etc/fstab' and paste the following line: `/swapfile swap swap defaults 0 0`
+6. `sudo sysctl vm.swappiness=10`
+7. `sudo nano /etc/sysctl.conf` add the line: `vm.swappiness=10`
+8. `sudo reboot`
+
+[Read More](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/)
+
 #### Stop automatic upgrades
 We don't want automatic upgrades to run without warning, so we will disable this in this step.
 
 Run the command `sudo dpkg-reconfigure -plow unattended-upgrades` in your terminal. 
 
-#### Set-up Wifi
+#### Setting up Wifi
 Just use the Mate desktop Network Manager for this
 
 #### Configure Ubuntu- Mate to start in a terminal
