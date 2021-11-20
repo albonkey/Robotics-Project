@@ -26,7 +26,7 @@ In the terminal:
 2. `sudo chmod 600 /swapfile`
 3. `sudo swapon /swapfile`
 4. `sudo swapon /swapfile`
-5. `sudo nano /etc/fstab' and paste the following line: `/swapfile swap swap defaults 0 0`
+5. `sudo nano /etc/fstab` and paste the following line: `/swapfile swap swap defaults 0 0`
 6. `sudo sysctl vm.swappiness=10`
 7. `sudo nano /etc/sysctl.conf` add the line: `vm.swappiness=10`
 8. `sudo reboot`
