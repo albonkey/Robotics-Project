@@ -48,7 +48,7 @@ Run the following commands in your terminal:
 1. `sudo systemctl enable multi-user.target --force`
 2. `sudo systemctl set-default multi-user.target`
 3. `sudo reboot` This will reboot the system
-4. `After the system is rebooted run `sudo apt install xinit`
+4. After the system is rebooted run `sudo apt install xinit`
 5. Now if you want to run the desktop environment you can use the command `startx`.
 6. Run `sudo reboot` again to make sure all the changes are installed
 
