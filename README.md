@@ -81,9 +81,9 @@ Best to do this from the startup terminal
 #### Adding Python Extras
 Python3 sould already be installed, we just need to add some python3 extras
 
-`sudo apt install python3-pip`
-`sudo apt install python3-dev`
-`sudo apt install idle3`
+1. `sudo apt install python3-pip`
+2. `sudo apt install python3-dev`
+3. `sudo apt install idle3`
 
 #### Install ROS2 Foxy Fitzroy
 Download and install ROS2 Foxy Fitzroy
