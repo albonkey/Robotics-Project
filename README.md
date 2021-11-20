@@ -79,7 +79,7 @@ Best to do this from the startup terminal
 2. `sudo apt upgrade`
 
 #### Adding Python Extras
-Python3 sould already be installed, we just need to add some python3 extras
+Python3 should already be installed, we just need to add some python3 extras
 
 1. `sudo apt install python3-pip`
 2. `sudo apt install python3-dev`
