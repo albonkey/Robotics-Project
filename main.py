@@ -53,5 +53,6 @@ While True:
   if state == TURN:
     moveTurn(bot, 200)
     state = WAIT
-    
+  
+  playSong(bot, 2)
     
